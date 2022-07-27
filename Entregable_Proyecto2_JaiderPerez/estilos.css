@@ -1,0 +1,122 @@
+.galeria_section{
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
+.box_div i{
+    cursor: pointer;
+}
+.item{
+    height: 200px;
+    border: 5px solid black;
+    margin: 20px;
+}
+.box_head{
+    height: auto;
+    width: 100%;
+    background-color: aquamarine;
+    font-size: 150%;
+    padding: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    text-shadow: 2px 2px 5px #333;
+    text-transform: capitalize;
+}
+h3{
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 5px #333;
+}
+.box_div{
+    height: auto;
+    background-color: aqua;
+    padding: 100px 100px;
+    border: 5px solid white;
+    font-size: 200%;
+    text-align: center;
+}
+.a{
+    color: white;
+    text-align: center;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: all 0.9s;
+    box-shadow: 2px 2px 5px #333;
+}
+.item1{
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item2{
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item3{
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item4{
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item5{
+    background-image: url(/img/5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.item6{
+    background-image: url(/img/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.item7{
+    background-image: url(/img/7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.footer_1{
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contacto{
+    width: 100%;
+    height: 450px;
+}
+.redes{
+    width: 100%;
+    min-height: auto;
+    padding: 20px;
+    cursor:pointer;
+}
+.footer_1 form{
+    background-color: aqua;
+    color: white;
+    text-align: left;
+}
+.footer_1 label{
+    font-size: 25px;
+}
+.footer_1 div{
+    background-color: aqua;
+    color: white;
+    text-align: center;
+}
+.footer_1 i{
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: black;
+}
+.footer_1 p{
+    font-size: 25px;
+    color: black;
+}
